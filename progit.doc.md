@@ -42,7 +42,7 @@ for that repository, checks out a working copy of latest version.
 
 #### Ignoring Files
 
-_cat .gitignore_ >> create .gitignore
+_cat .gitignore_ >> read .gitignore
 
 #### The rules for the patterns you can put in the .gitignore file are as follows:
 
@@ -87,3 +87,5 @@ staged for commit” (that is, unstaged) area.
 _git rm [filename]_ >> command remove file from your tracked files (more accurately, remove it  
 from your staging area) and then commit, and also removes the file from your working directory  
 so you don’t see it as an untracked file the next time around.
+
+# Some Header
