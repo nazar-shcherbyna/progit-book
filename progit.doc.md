@@ -88,4 +88,10 @@ _git rm [filename]_ >> command remove file from your tracked files (more accurat
 from your staging area) and then commit, and also removes the file from your working directory  
 so you don’t see it as an untracked file the next time around.
 
-# Some Header
+### Undoing things
+
+_git commit --amend_ >> takes staging area and uses it for preious commit. If you've made no  
+changes since your last commit, than your snapshot will look exactly the same, and all you will  
+change your commit message.
+
+_git commit --amend --no-edit_ >> add additional changes with the same commit message
