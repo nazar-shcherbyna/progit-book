@@ -7,12 +7,13 @@ _echo >> .gitignore_ >> create .gitignore
 ## The rules for the patterns you can put in the .gitignore file are as follows:
 
 `
+
 > - Blank lines and lines start with ### are ignored.
 > - Standart glob patterns work, and will be applied recursively throught the entire working three.
 > - You can start patterns with a forward slash (#/#) to avoid recursively.
 > - You can end patterns with a forward slash (#/#) to specify a directory.
 > - You can negate a pattern by starting it with an exclamation point(#!#).
-`
+>   `
 
 ## the ignore rules examples
 
