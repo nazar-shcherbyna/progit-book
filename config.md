@@ -12,8 +12,7 @@ There are three types of config files:
 
 ### Your identity
 
-Each git command uses user.name and user.email from config and it's immutably baked into the commits
-you start creating:
+Each git command uses user.name and user.email from config and it's immutably baked into the commits you start creating:
 
 **git config --global user.name "[USERNAME]"**  
 **git config --global user.email [USEREMAIL]**

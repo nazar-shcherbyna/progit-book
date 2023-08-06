@@ -14,9 +14,8 @@ the process start the same as just renaming any other branch
 **git push --set-upstream origin main**
 
 Local **master** branch is gone, as it's replaced with the **main** branch.  
-The **main** branch is presents on the remote. However the old **master** branch is still presents on the remote.
-Other collaborators will continue to use the **master** branch as the base of their work,
-untill you make some further changes.
+The **main** branch is presents on the remote. However the old **master** branch is still presents on the remote.  
+Other collaborators will continue to use the **master** branch as the base of their work, untill you make some further changes.
 
 Now you have a few more tasks in front of you to complete the transition:
 
