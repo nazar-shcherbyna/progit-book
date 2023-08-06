@@ -14,9 +14,9 @@ This operation works by going to the common ancestor of the two branches(the one
 
 ### Example with branches _develop_ and _feature_.
 
-The example implies that you've checked out from **develop** to **feature**, made a few commits and would like to move changes to **develop**
+The example implies that you've checked out from **develop** to **feature**, made a few commits and would like to move changes only from **feature** to **master** directly.
 
-**git rebase develop** - save all changes of all commits from the common ancestor commit to the last commit in **feature** in temporary files, reset **feature** to common ancestor commit with **develop**, reapply changes on feature.
+**git rebase develop** - save all changes of all commits from the common ancestor commit to the last commit in **feature** in temporary files, reset **feature** to common ancestor commit with **develop**, reapply changes on feature.(As described above)
 
 **git switch develop**
 
