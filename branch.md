@@ -1,12 +1,12 @@
 # Work with branches
 
-## Rename branch
+### Rename branch
 
 **git branch --move old-name new-name** - rename only a local branch  
 **git push --set-upsteam origin new-name** - push **new-branch** name to the remote and set it to upstream  
 **git push origin --delete old-name** - remove **old-branch** from the origin
 
-## Rename _master_ branch
+### Rename _master_ branch
 
 the process start the same as just renaming any other branch
 

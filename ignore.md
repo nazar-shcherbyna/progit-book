@@ -12,28 +12,16 @@ if you dont have it yet, run
 > - You can end patterns with a forward slash **_(#/#)_** to specify a directory.
 > - You can negate a pattern by starting it with an exclamation point **_(#!#)_**.
 
-### The ignore rules examples
-
-### ignore all .a files
+### The ignore rules examples:
 
 **\*.a** - ignore all .a files
 
-### ignore all .a files, but do track lib.a, even though you're ignoring .a files above
+**!lib.a** - ignore all .a files, but do track lib.a, even though you're ignoring .a files above
 
-!lib.a
+**/TODO** - only ignore the TODO file in the current directory, not subdir/TODO
 
-### only ignore the TODO file in the current directory, not subdir/TODO
+**build/** - ignore all files in any directory named build
 
-/TODO
+**doc/\*.txt** - ignore doc/notes.txt, but not doc/server/arch.txt
 
-### ignore all files in any directory named build
-
-build/
-
-### ignore doc/notes.txt, but not doc/server/arch.txt
-
-doc/\*.txt
-
-### ignore all .pdf files in the doc/ directory and any of its subdirectories
-
-doc/\*_/_.pdf
+**doc/\*_/_.pdf** - ignore all .pdf files in the doc/ directory and any of its subdirectories
