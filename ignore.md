@@ -4,7 +4,7 @@ if you dont have it yet, run
 
 **echo >> .gitignore** - create .gitignore
 
-## The rules for the patterns you can put in the .gitignore file are as follows:
+### The rules for the patterns you can put in the .gitignore file are as follows:
 
 > - Blank lines and lines start with **_###_** are ignored.
 > - Standart glob patterns work, and will be applied recursively throught the entire working three.
@@ -12,11 +12,11 @@ if you dont have it yet, run
 > - You can end patterns with a forward slash **_(#/#)_** to specify a directory.
 > - You can negate a pattern by starting it with an exclamation point **_(#!#)_**.
 
-## the ignore rules examples
+### The ignore rules examples
 
 ### ignore all .a files
 
-\*.a
+**\*.a** - ignore all .a files
 
 ### ignore all .a files, but do track lib.a, even though you're ignoring .a files above
 
