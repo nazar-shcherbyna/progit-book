@@ -24,4 +24,4 @@ if you dont have it yet, run
 
 **doc/\*.txt** - ignore doc/notes.txt, but not doc/server/arch.txt
 
-**doc/\*_/_.pdf** - ignore all .pdf files in the doc/ directory and any of its subdirectories
+**doc/\*\*/\*.pdf** - ignore all .pdf files in the doc/ directory and any of its subdirectories
