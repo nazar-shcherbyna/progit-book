@@ -8,7 +8,7 @@ There are three types of config files:
 > **global** - uses for current user  
 > **local** - uses by default in git directory(that is, .git/config). default flag
 
-**git config --list --show-origin** - view all configuration settings and where they are coming from
+**git config --list --show-origin** : view all configuration settings and where they are coming from
 
 ### Your identity
 
@@ -16,7 +16,7 @@ Each git command uses user.name and user.email from config and it's immutably ba
 you start creating:
 
 **git config --global user.name "[USERNAME]"**  
-**git config --global user.email [USERNAME]**
+**git config --global user.email [USEREMAIL]**
 
 ### Set default branch name
 
