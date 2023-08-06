@@ -2,16 +2,16 @@
 
 ## Rename branch
 
-_git branch --move old-name new-name_ >> rename only a local branch  
-_git push --set-upsteam origin new-name_ >> push **new-branch** name to the remote and set it to upstream  
-_git push origin --delete old-name_ >> remove **old-branch** from the origin
+**git branch --move old-name new-name** - rename only a local branch  
+**git push --set-upsteam origin new-name** - push **new-branch** name to the remote and set it to upstream  
+**git push origin --delete old-name** - remove **old-branch** from the origin
 
 ## Rename _master_ branch
 
 the process start the same as just renaming any other branch
 
-_git branch --move master main_  
-_git push --set-upstream origin main_
+**git branch --move master main**  
+**git push --set-upstream origin main**
 
 Local **master** branch is gone, as it's replaced with the **main** branch.  
 The **main** branch is presents on the remote. However the old **master** branch is still presents on the remote.
@@ -29,4 +29,4 @@ Now you have a few more tasks in front of you to complete the transition:
 
 After you've done all these tasks, and are certain the **main** branch is performs just as the **master** branch, you can delete the **master** branch
 
-_git push origin --delete master_
+**git push origin --delete master**

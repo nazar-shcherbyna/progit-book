@@ -8,8 +8,7 @@ There are three types of config files:
 > **global** - uses for current user  
 > **local** - uses by default in git directory(that is, .git/config). default flag
 
-**git config --list --show-origin**  
-view all configuration settings and where they are coming from
+**git config --list --show-origin** - view all configuration settings and where they are coming from
 
 ### Your identity
 
