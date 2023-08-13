@@ -4,9 +4,21 @@ The project snapshot will be the same in comparison with _merge_ command, but _g
 
 #### Merged _develop_ to _master_ process three
 
+**git switch master**
+
+**git merge develop**
+
 ![merge-process-tree](/assets/images/rebase/merge-process-tree.png)
 
 #### Rebase _master_ to _develop_ process three
+
+**git switch develop**
+
+**git rebase master**
+
+**git switch master**
+
+**git merge develop**
 
 ![merge-process-tree](/assets/images/rebase/rebase-process-tree.png)
 
