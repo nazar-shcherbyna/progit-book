@@ -11,3 +11,7 @@
 **git commit --amend** - takes staging area and uses it for preious commit. If you've made no changes since your last commit, than your snapshot will look exactly the same, and all you will change your commit message.
 
 **git commit --amend --no-edit** - add additional changes with the same commit message
+
+**git reset HEAD [filename]** - unstage file
+
+**git checkout -- [filename]** - discard changes in working directory
