@@ -24,7 +24,7 @@ Stores in the git database as full object with tag metadata - tagger name, tagge
 
 ### Sharing tags
 
-By default, the **git push** command doesn't transfer tags to temote servers. You have to explicitly push tags to a shared server after you have created them.
+By default, the **git push** command doesn't transfer tags to remote servers. You have to explicitly push tags to a shared server after you have created them.
 
 **git push origin [tag-name]**
 
